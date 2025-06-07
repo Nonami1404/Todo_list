@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    margin: 50px 0;
+    color: crimson;
+    font-size: 65px;
+    text-shadow: -5px 5px rgb(252, 173, 173);
+}
+.searchWrapper input{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    border-radius: 30px;
+    background: royalblue;
+    color: black;
+    box-shadow: -3px 3px black;
+    border: none;
+}
+.searchWrapper input::placeholder{
+    color: black;
+}
+.searchWrapper button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    background: #02fbff;
+    color: black;
+    box-shadow: -3px 3px blue ;
+    border: none;
+    cursor: pointer;
+}
+.searchWrapper{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.removeBtn{
+    width: 60px;
+    height: 35px;
+    background: rgb(234, 63, 63);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: -3px 3px red;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 3px solid purple;
+    border-radius: 30px;
+    background: plum;
+    color: black;
+    box-shadow: -5px 5px purple;
+    text-shadow: -3px 3px grey;
+}
+.changeBtn{
+    width: 80px;
+    height: 35px;
+    background: seagreen;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: -3px 3px green;
+}
+.done{
+    width: 60px;
+    height: 35px;
+    color: green;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid green;
+    font-weight: 700;
+    box-shadow: -3px 3px green;
+}
+.notDone{
+    width: 80px;
+    height: 35px;
+    color: red;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid red;
+    font-weight: 700;
+    box-shadow: -3px 3px red;
+}
+#todoList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
